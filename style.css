@@ -1,0 +1,275 @@
+* {
+  font-family: "Poppins", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-bar {
+  position: fixed;
+  background: rgb(25, 136, 226);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul {
+  padding: 0 30px 0 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 0 40px 0 0;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+ul li:hover a {
+  cursor: pointer;
+  color: rgb(242, 255, 0);
+}
+.about {
+  margin-top: 70px;
+  height: 500px;
+  width: 100%;
+  padding: 100px 0 0 0;
+  text-align: center;
+  background: url("/portrait.jpg");
+  color: #fff;
+  font-size: 18px;
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.project {
+  color: #fff;
+  width: 380px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  transition: width 0.4s, height 0.4s;
+}
+
+.project:hover {
+  width: 390px;
+  height: 410px;
+}
+
+.container-project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.a {
+  background-image: url("/rose_1.jpg");
+  background-size: cover;
+}
+
+.b {
+  background-image: url("/rose_2.jpg");
+  background-size: cover;
+}
+
+.c {
+  background-image: url("/rose_3.jpg");
+  background-size: cover;
+}
+
+.d {
+  background-image: url("/collage_art.jpg");
+  background-size: cover;
+}
+
+.e {
+  background-image: url("/portrait.jpg");
+  background-size: cover;
+}
+
+.f {
+  background-image: url("/cat.jpg");
+  background-size: cover;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  gap: 40px;
+}
+
+img {
+  width: 100%;
+  height: 97%;
+  object-fit: cover;
+}
+
+.thumb {
+  width: 100%;
+  height: 90%;
+}
+
+.code {
+  color: rgb(49, 155, 232);
+  font-size: 19px;
+  transition: color 0.3s ease-in-out;
+}
+
+.project:hover .code {
+  color: rgb(255, 255, 255);
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.title-project {
+  background: rgb(49, 155, 232);
+  padding: 15px 0 15px 0;
+  text-align: center;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final {
+  margin-bottom: 60px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  color: #fff;
+  background: rgb(27, 27, 27);
+}
+
+.contact h1 {
+  font-size: 50px;
+}
+
+.text-contact {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.contact-social {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.social {
+  transition: padding 0.35s;
+  padding: 0 30px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.facebook:hover {
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.facebook a {
+  transition: color 0.4s;
+}
+
+.facebook:hover a {
+  color: rgb(0, 102, 255);
+}
+
+.instagram:hover {
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.instagram a {
+  transition: color 0.4s;
+}
+
+.instagram:hover a {
+  color: rgb(255, 89, 0);
+}
+
+.youtube:hover {
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.youtube a {
+  transition: color 0.4s;
+}
+
+.youtube:hover a {
+  color: rgb(233, 37, 37);
+}
+
+.github:hover {
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.github a {
+  transition: color 0.4s;
+}
+
+.github:hover a {
+  color: rgb(99, 0, 157);
+}
+
+.gmail:hover {
+  cursor: pointer;
+  padding-top: 10px;
+  transition: color 0.4s;
+  transition: padding 0.4s;
+}
+
+.gmail:hover {
+  color: rgb(33, 255, 107);
+}
+
+.text-contact h1 {
+  transition: color 0.3s;
+}
+.text-contact p {
+  transition: color 0.3s;
+}
+
+.text-contact h1:hover {
+  color: rgb(242, 255, 0);
+}
+
+.text-contact p:hover {
+  color: rgb(242, 255, 0);
+}
