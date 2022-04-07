@@ -45,7 +45,7 @@ ul li:hover a {
   width: 100%;
   padding: 100px 0 0 0;
   text-align: center;
-  background: url("/portrait.jpg");
+  background: url("portrait.jpg");
   color: #fff;
   font-size: 18px;
 }
@@ -76,32 +76,32 @@ ul li:hover a {
 }
 
 .a {
-  background-image: url("/rose_1.jpg");
+  background-image: url("rose_1.jpg");
   background-size: cover;
 }
 
 .b {
-  background-image: url("/rose_2.jpg");
+  background-image: url("rose_2.jpg");
   background-size: cover;
 }
 
 .c {
-  background-image: url("/rose_3.jpg");
+  background-image: url("rose_3.jpg");
   background-size: cover;
 }
 
 .d {
-  background-image: url("/collage_art.jpg");
+  background-image: url("collage_art.jpg");
   background-size: cover;
 }
 
 .e {
-  background-image: url("/portrait.jpg");
+  background-image: url("portrait.jpg");
   background-size: cover;
 }
 
 .f {
-  background-image: url("/cat.jpg");
+  background-image: url("cat.jpg");
   background-size: cover;
 }
 
